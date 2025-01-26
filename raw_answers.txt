@@ -1,0 +1,583 @@
+Processing 2002 nivel1...
+Page 1 result: {1: D, 2: C, 3: B, 4: E, 5: C, 6: B, 7: C, 8: D, 9: A, 10: D}
+Page 2 result: {11: D, 12: B, 13: C, 14: A, 15: D, 16: C, 17: C, 18: D, 19: C, 20: E}
+Page 3 result: {21: E, 22: D, 23: B, 24: C, 25: C}
+Page 4 result: None
+
+Processing 2002 nivel2...
+Page 1 result: {1: D, 2: C, 3: E, 4: B, 5: D, 6: C, 7: D, 8: B, 9: C}
+Page 2 result: {10: B, 11: B, 12: D, 13: C, 14: A, 15: C, 16: B, 17: A}
+Page 3 result: {18: B, 19: E, 20: C, 21: E, 22: D, 23: A, 24: B, 25: C}
+Page 4 result: None
+
+Processing 2002 nivel3...
+Page 1 result: {1: D, 2: C, 3: E, 4: B, 5: A, 6: B, 7: C}
+Page 2 result: {8: B, 9: C, 10: D, 11: A, 12: C, 13: B, 14: A, 15: B, 16: C}
+Page 3 result: {17: C, 18: A, 19: D, 20: E, 21: B, 22: C, 23: D, 24: A, 25: C}
+Page 4 result: None
+
+Processing 2002 nivel4...
+Page 1 result: {1: C, 2: D, 3: B, 4: A, 5: A, 6: E, 7: C, 8: D, 9: A, 10: D, 11: A, 12: B, 13: 
+C, 14: A, 15: D, 16: C}
+Page 2 result: {17: B, 18: D, 19: A, 20: C, 21: D, 22: A, 23: B, 24: A, 25: A}
+
+Successfully created respuestas\respuestas_2002.csv
+Total tokens used - Prompt: 16688, Completion: 517
+
+Processing 2003 nivel1...
+Page 1 result: None
+Page 2 result: {1: B, 2: C, 3: C, 4: D, 5: A, 6: C, 7: D, 8: A, 9: C, 10: E, 11: C, 12: D, 13: 
+C}
+Page 3 result: {14: C, 15: A, 16: B, 17: C, 18: E, 19: A, 20: B, 21: E, 22: C, 23: D}
+Page 4 result: {24: B, 25: E}
+Page 5 result: None
+
+Processing 2003 nivel2...
+Page 1 result: None
+Page 2 result: {1: C, 2: B, 3: E, 4: D, 5: D, 6: B, 7: B, 8: C, 9: C, 10: A}
+Page 3 result: {11: C, 12: D, 13: A, 14: C, 15: B, 16: B, 17: D, 18: C, 19: A, 20: D}
+Page 4 result: {21: D, 22: C, 23: E, 24: C, 25: D}
+
+Processing 2003 nivel3...
+Page 1 result: None
+Page 2 result: {1: D, 2: B, 3: C, 4: E, 5: A, 6: C, 7: A, 8: E, 9: D, 10: C}
+Page 3 result: {11: D, 12: A, 13: A, 14: C, 15: B, 16: A, 17: A, 18: C, 19: D}
+Page 4 result: {20: C, 21: B, 22: B, 23: C, 24: D, 25: B}
+
+Processing 2003 nivel4...
+Page 1 result: None
+Page 2 result: {1: A, 2: C, 3: D, 4: A, 5: C, 6: A, 7: C, 8: B, 9: A}
+Page 3 result: {10: C, 11: D, 12: C, 13: A, 14: C, 15: D, 16: E, 17: C, 18: B}
+Page 4 result: {19: E, 20: B, 21: C, 22: B, 23: A, 24: C, 25: E}
+Page 5 result: None
+
+Successfully created respuestas\respuestas_2003.csv
+Total tokens used - Prompt: 21456, Completion: 524
+
+Processing 2004 nivel1...
+Page 1 result: None
+Page 2 result: {1: D, 2: E, 3: C, 4: B, 5: E, 6: A, 7: C, 8: D, 9: B, 10: E, 11: E}
+Page 3 result: {12: C, 13: D, 14: B, 15: C, 16: E, 17: C, 18: C, 19: E, 20: D, 21: E}
+Page 4 result: {22: D, 23: C, 24: D, 25: D}
+Page 5 result: None
+
+Processing 2004 nivel2...
+Page 1 result: None
+Page 2 result: {1: D, 2: A, 3: E, 4: C, 5: B, 6: A, 7: D, 8: C, 9: B, 10: E, 11: A}
+Page 3 result: {12: E, 13: A, 14: B, 15: C, 16: C, 17: B, 18: A, 19: D, 20: A, 21: B, 22: C}
+Page 4 result: {23: A, 24: C, 25: B}
+Page 5 result: None
+
+Processing 2004 nivel3...
+Page 1 result: None
+Page 2 result: {1: B, 2: A, 3: C, 4: C, 5: D, 6: C, 7: B, 8: E, 9: B, 10: C, 11: B, 12: E}
+Page 3 result: {13: D, 14: B, 15: E, 16: A, 17: E, 18: A, 19: E, 20: B, 21: D, 22: C}
+Page 4 result: {23: E, 24: A, 25: C}
+Page 5 result: None
+
+Processing 2004 nivel4...
+Page 1 result: None
+Page 2 result: {1: C, 2: B, 3: A, 4: A, 5: D, 6: A, 7: B, 8: E, 9: C, 10: A, 11: C, 12: D, 13: 
+D}
+Page 3 result: {14: B, 15: D, 16: B, 17: C, 18: E, 19: A, 20: A, 21: D, 22: D, 23: A, 24: D}
+Page 4 result: {25: "C"}
+Error cleaning response: Expecting ',' delimiter: line 1 column 9 (char 8)
+Original response: 25:"C"
+Failed to parse answers for nivel4 page 3
+
+Successfully created respuestas\respuestas_2004.csv
+Total tokens used - Prompt: 22648, Completion: 527
+
+Processing 2005 nivel1...
+Page 1 result: None
+Page 2 result: {1: C, 2: B, 3: E, 4: A, 5: C, 6: D, 7: B, 8: C, 9: A, 10: B, 11: A, 12: D, 13: 
+C, 14: D, 15: B}
+Page 3 result: {16: D, 17: A, 18: C, 19: C, 20: C, 21: A, 22: B, 23: B, 24: A}
+Page 4 result: {25: "C"}
+Error cleaning response: Expecting ',' delimiter: line 1 column 9 (char 8)
+Original response: 25:"C"
+Failed to parse answers for nivel1 page 3
+
+Processing 2005 nivel2...
+Page 1 result: None
+Page 2 result: {1: C, 2: B, 3: B, 4: B, 5: D, 6: E, 7: C, 8: D, 9: C, 10: B, 11: B, 12: D, 13: 
+B}
+Page 3 result: {14: D, 15: C, 16: A, 17: D, 18: B, 19: D, 20: C, 21: B, 22: C}
+Page 4 result: {23: B, 24: C, 25: A}
+
+Processing 2005 nivel3...
+Page 1 result: None
+Page 2 result: {1: B, 2: C, 3: D, 4: B, 5: A, 6: D, 7: C, 8: E, 9: D, 10: C, 11: E}
+Page 3 result: {12: B, 13: C, 14: D, 15: C, 16: A, 17: C, 18: B, 19: A, 20: D, 21: C}
+Page 4 result: {22: A, 23: C, 24: D, 25: C}
+
+Processing 2005 nivel4...
+Page 1 result: None
+Page 2 result: {1: E, 2: C, 3: D, 4: B, 5: C, 6: A, 7: C, 8: B, 9: E, 10: A, 11: C, 12: C, 13: 
+A}
+Page 3 result: {14: E, 15: C, 16: D, 17: B, 18: C, 19: E, 20: B, 21: D, 22: B, 23: D, 24: B, 25: C}
+
+Successfully created respuestas\respuestas_2005.csv
+Total tokens used - Prompt: 17880, Completion: 520
+
+Processing 2006 nivel1...
+Page 1 result: None
+Page 2 result: {1: B, 2: E, 3: D, 4: A, 5: B, 6: C, 7: D, 8: B, 9: A, 10: C, 11: D, 12: C}
+Page 3 result: {13: C, 14: D, 15: C, 16: B, 17: B, 18: C, 19: D, 20: C, 21: D, 22: E, 23: C}
+Page 4 result: {24: B, 25: B}
+
+Processing 2006 nivel2...
+Page 1 result: None
+Page 2 result: {1: B, 2: B, 3: C, 4: C, 5: A, 6: D, 7: B, 8: A, 9: C, 10: C, 11: D}
+Page 3 result: {12: C, 13: D, 14: D, 15: B, 16: C, 17: A, 18: C, 19: A, 20: C, 21: C, 22: D, 23: E}
+Page 4 result: {24: B, 25: C}
+Page 5 result: None
+
+Processing 2006 nivel3...
+Page 1 result: None
+Page 2 result: {1: B, 2: E, 3: D, 4: A, 5: C, 6: B, 7: C, 8: A, 9: B, 10: D, 11: B, 12: A, 13: 
+D}
+Page 3 result: {14: C, 15: C, 16: B, 17: C, 18: B, 19: A, 20: D, 21: C, 22: E, 23: C, 24: A}
+Page 4 result: {25: C}
+Page 5 result: None
+
+Processing 2006 nivel4...
+Page 1 result: {1: C, 2: D, 3: A, 4: B, 5: C, 6: B, 7: C}
+Page 2 result: {8: A, 9: A, 10: E, 11: A, 12: E, 14: D, 15: A, 16: A, 17: C, 18: A, 19: B, 20: 
+C}
+Page 3 result: {21: E, 22: C, 23: A, 24: B, 25: D}
+
+Successfully created respuestas\respuestas_2006.csv
+Total tokens used - Prompt: 20264, Completion: 517
+
+Processing 2007 nivel1...
+Page 1 result: None
+Page 2 result: {1: A, 2: D, 3: C, 4: D, 5: B, 6: C, 7: D, 8: C, 9: E}
+Page 3 result: {10: C, 11: E, 12: A, 13: B, 14: C, 15: A, 16: D, 17: B, 18: A, 19: D}
+Page 4 result: {20: A, 21: C, 22: D, 23: C, 24: B, 25: D}
+
+Processing 2007 nivel2...
+Page 1 result: None
+Page 2 result: {1: C, 2: C, 3: E, 4: C, 5: A, 6: B, 7: C, 8: D, 9: C}
+Page 3 result: {10: C, 11: D, 12: C, 13: B, 14: D, 15: A, 16: E, 17: C}
+Page 4 result: {18: C, 19: A, 20: C, 21: A, 22: E, 23: E, 24: D, 25: B}
+
+Processing 2007 nivel3...
+Page 1 result: None
+Page 2 result: {1: C, 2: E, 3: A, 4: B, 5: C, 6: A, 7: D, 8: B, 9: D}
+Page 3 result: {10: D, 11: B, 12: C, 13: A, 14: E, 15: C, 16: D, 17: B}
+Page 4 result: {18: D, 19: E, 20: C, 21: D, 22: C, 23: C, 24: D, 25: A}
+
+Processing 2007 nivel4...
+Page 1 result: None
+Page 2 result: {1: D, 2: A, 3: E, 4: A, 5: B, 6: A, 7: C, 8: A}
+Page 3 result: {9: C, 10: B, 11: A, 12: A, 13: D, 14: D, 15: E, 16: A, 17: B}
+Page 4 result: {18: D, 19: E, 20: C, 21: A, 22: D, 23: B, 24: C, 25: A}
+
+Successfully created respuestas\respuestas_2007.csv
+Total tokens used - Prompt: 19072, Completion: 520
+
+Processing 2008 nivel1...
+Page 1 result: None
+Page 2 result: {1: E, 2: A, 3: D, 4: B, 5: C, 6: A, 7: C, 8: D, 9: B}
+Page 3 result: {10: C, 11: B, 12: D, 13: C, 14: E, 15: D, 16: C, 17: D, 18: E}
+Page 4 result: {19: E, 20: C, 21: B, 22: D, 23: A, 24: A, 25: D}
+
+Processing 2008 nivel2...
+Page 1 result: None
+Page 2 result: {1: B, 2: A, 3: E, 4: C, 5: C, 6: A, 7: D, 8: A, 9: A}
+Page 3 result: {10: C, 11: E, 12: B, 13: C, 14: D, 15: C, 16: A, 17: A}
+Page 4 result: {18: D, 19: C, 20: E, 21: B, 22: D, 23: E, 24: B, 25: D}
+
+Processing 2008 nivel3...
+Page 1 result: None
+Page 2 result: {1: B, 2: A, 3: E, 4: C, 5: C, 6: B, 7: D, 8: C, 9: D}
+Page 3 result: {10: E, 11: C, 12: B, 13: A, 14: C, 15: A, 16: C, 17: D}
+Page 4 result: {18: D, 19: C, 20: B, 21: D, 22: E, 23: C, 24: B, 25: E}
+
+Processing 2008 nivel4...
+Page 1 result: None
+Page 2 result: {1: A, 2: C, 3: B, 4: D, 5: D, 6: B, 7: C, 8: A, 9: D}
+Page 3 result: {10: C, 11: A, 12: D, 13: E, 14: C, 15: D, 16: C, 17: B, 18: C, 19: B}
+Page 4 result: {20: E, 21: B, 22: A, 23: C, 24: A, 25: D}
+
+Successfully created respuestas\respuestas_2008.csv
+Total tokens used - Prompt: 19072, Completion: 520
+
+Processing 2009 nivel1...
+Page 1 result: None
+Page 2 result: {1: E, 2: E, 3: A, 4: B, 5: E, 6: A, 7: D, 8: C, 9: B}
+Page 3 result: {10: B, 11: D, 12: C, 13: A, 14: C, 15: B, 16: D, 17: C}
+Page 4 result: {18: C, 19: E, 20: B, 21: B, 22: D, 23: C, 24: B, 25: B}
+
+Processing 2009 nivel2...
+Page 1 result: None
+Page 2 result: {1: D, 2: B, 3: D, 4: C, 5: D, 6: A, 7: B, 8: E, 9: C, 10: A}
+Page 3 result: {11: D, 12: C, 13: C, 14: B, 15: D, 16: D, 17: B}
+Page 4 result: {18: D, 19: C, 20: B, 21: E, 22: A, 23: C, 24: A, 25: D}
+
+Processing 2009 nivel3...
+Page 1 result: None
+Page 2 result: {1: B, 2: E, 3: A, 4: D, 5: D, 6: B, 7: A, 8: D}
+Page 3 result: {9: C, 10: C, 11: B, 12: B, 13: A, 14: D, 15: C, 16: D, 17: E}
+Page 4 result: {18: C, 19: D, 20: B, 21: D, 22: B, 23: A, 24: B, 25: E}
+
+Processing 2009 nivel4...
+Page 1 result: None
+Page 2 result: {1: B, 2: C, 3: C, 4: E, 5: C, 6: C, 7: E, 8: D}
+Page 3 result: {9: B, 10: C, 11: A, 12: B, 13: E, 14: C, 15: A, 16: D, 17: A, 18: B}
+Page 4 result: {19: B, 20: C, 21: C, 22: D, 23: B, 24: C, 25: C}
+
+Successfully created respuestas\respuestas_2009.csv
+Total tokens used - Prompt: 19072, Completion: 520
+
+Processing 2010 nivel1...
+Page 1 result: None
+Page 2 result: {1: A, 2: C, 3: E, 4: B, 5: D, 6: A, 7: C, 8: E, 9: D, 10: C}
+Page 3 result: {11: C, 12: A, 13: B, 14: E, 15: C, 16: D, 17: A}
+Page 4 result: {18: C, 19: A, 20: E, 21: B, 22: C, 23: D, 24: B, 25: C}
+
+Processing 2010 nivel2...
+Page 1 result: None
+Page 2 result: {1: D, 2: C, 3: B, 4: C, 5: A, 6: B, 7: C, 8: C, 9: D}
+Page 3 result: {10: B, 11: B, 12: C, 13: D, 14: E, 15: D, 16: C, 17: B}
+Page 4 result: {18: B, 19: E, 20: D, 21: C, 22: D, 23: C, 24: B, 25: E}
+
+Processing 2010 nivel3...
+Page 1 result: None
+Page 2 result: {1: A, 2: A, 3: B, 4: C, 5: A, 6: C, 7: D, 8: D, 9: C, 10: E}
+Page 3 result: {11: C, 12: B, 13: B, 14: A, 15: A, 16: E, 17: B, 18: D, 19: C}
+Page 4 result: {20: C, 21: B, 22: D, 23: A, 24: C, 25: A}
+
+Processing 2010 nivel4...
+Page 1 result: None
+Page 2 result: {1: B, 2: B, 3: E, 4: A, 5: D, 6: D, 7: A, 8: D}
+Page 3 result: {9: D, 10: C, 11: E, 12: D, 13: B, 14: A, 15: D, 16: B, 17: E, 18: C, 19: A}
+Page 4 result: {20: D, 21: B, 22: A, 23: A, 24: C, 25: A}
+
+Successfully created respuestas\respuestas_2010.csv
+Total tokens used - Prompt: 19072, Completion: 520
+
+Processing 2011 nivel1...
+Page 1 result: None
+Page 2 result: {1: B, 2: C, 3: B, 4: A, 5: C, 6: B, 7: C, 8: A, 9: D}
+Page 3 result: {10: A, 11: C, 12: E, 13: B, 14: A, 15: A, 16: C, 17: D}
+Page 4 result: {18: C, 19: D, 20: C, 21: B, 22: E, 23: C, 24: B, 25: B}
+
+Processing 2011 nivel2...
+Page 1 result: None
+Page 2 result: {1: B, 2: C, 3: E, 4: A, 5: C, 6: A, 7: B, 8: D}
+Page 3 result: {9: C, 10: B, 11: C, 12: E, 13: D, 15: A, 16: C}
+Page 4 result: {17: D, 18: C, 19: C, 20: E, 21: D, 22: E, 23: C, 24: B, 25: A}
+
+Processing 2011 nivel3...
+Page 1 result: None
+Page 2 result: {1: A, 2: B, 3: C, 4: D, 5: E, 6: C, 7: A, 8: B, 9: C, 10: C}
+Page 3 result: {11: D, 12: B, 13: A, 14: C, 15: C, 16: B, 17: C}
+Page 4 result: {18: D, 19: E, 20: C, 21: A, 22: B, 23: C, 24: D, 25: C}
+
+Processing 2011 nivel4...
+Page 1 result: None
+Page 2 result: {1: A, 2: D, 3: B, 4: C, 5: B, 6: D, 7: B, 8: E, 9: A, 10: A, 11: C}
+Page 3 result: {12: A, 13: B, 14: D, 15: C, 16: E, 17: D, 18: B, 19: A, 20: D, 21: E}
+Page 4 result: {22: C, 23: B, 24: B, 25: C}
+
+Successfully created respuestas\respuestas_2011.csv
+Total tokens used - Prompt: 19072, Completion: 515
+
+Processing 2012 nivel1...
+Page 1 result: None
+Page 2 result: {1: "E", 2: "B", 3: "C", 4: "D", 5: "E", 6: "C", 7: "B", 8: "C", 9: "C"}
+Error cleaning response: Expecting ',' delimiter: line 1 column 8 (char 7)
+Original response: 1:"E",2:"B",3:"C",4:"D",5:"E",6:"C",7:"B",8:"C",9:"C"
+Failed to parse answers for nivel1 page 1
+Page 3 result: {10: D, 11: A, 12: D, 13: C, 14: B, 15: E, 16: D, 17: C}
+Page 4 result: {18: D, 19: B, 20: E, 21: C, 22: D, 23: C, 24: C, 25: B}
+
+Processing 2012 nivel2...
+Page 1 result: None
+Page 2 result: {1: B, 2: C, 3: A, 4: C, 5: D, 6: C, 7: E, 8: E}
+Page 3 result: {9: "C", 10: "B", 11: "A", 12: "C", 13: "B", 14: "C", 15: "E", 16: "B", 17: "C", 18: "B"}
+Error cleaning response: Expecting ',' delimiter: line 1 column 8 (char 7)
+Original response: 9:"C",10:"B",11:"A",12:"C",13:"B",14:"C",15:"E",16:"B",17:"C",18:"B"        
+Failed to parse answers for nivel2 page 2
+Page 4 result: {19: B, 20: C, 21: B, 22: D, 23: C, 24: C, 25: E}
+
+Processing 2012 nivel3...
+Page 1 result: None
+Page 2 result: {1: D, 2: B, 3: E, 4: A, 5: C, 6: B, 7: A, 8: A, 9: D, 10: E}
+Page 3 result: {11: E, 12: E, 13: B, 14: C, 15: C, 16: C, 17: D, 18: C}
+Page 4 result: {19: C, 20: C, 21: E, 22: A, 23: B, 24: A, 25: C}
+
+Processing 2012 nivel4...
+Page 1 result: None
+Page 2 result: {1: B, 2: B, 3: D, 4: E, 5: B, 6: D, 7: A, 8: D, 9: A}
+Page 3 result: {10: D, 11: B, 12: E, 13: B, 14: C, 15: C, 16: A, 17: A}
+Page 4 result: {18: B, 19: C, 20: E, 21: A, 22: B, 23: A, 24: A, 25: D}
+
+Successfully created respuestas\respuestas_2012.csv
+Total tokens used - Prompt: 19072, Completion: 539
+
+Processing 2013 nivel1...
+Page 1 result: None
+Page 2 result: {1: D, 2: C, 3: B, 4: E, 5: A, 6: B, 7: A, 8: C, 9: E}
+Page 3 result: {10: C, 11: D, 12: A, 13: C, 14: D, 15: D, 16: B, 17: E, 18: C}
+Page 4 result: {19: D, 20: B, 21: C, 22: E, 23: A, 24: B, 25: D}
+
+Processing 2013 nivel2...
+Page 1 result: None
+Page 2 result: {1: C, 2: E, 3: D, 4: B, 5: A, 6: C, 7: D, 8: C, 9: A}
+Page 3 result: {10: C, 11: A, 12: B, 13: E, 14: C, 15: D, 16: E, 17: C}
+Page 4 result: {18: C, 19: E, 20: D, 21: B, 22: C, 23: C, 24: C, 25: E}
+
+Processing 2013 nivel3...
+Page 1 result: None
+Page 2 result: {1: A, 2: C, 3: C, 4: C, 5: C, 6: D, 7: E, 8: B}
+Page 3 result: {9: C, 10: D, 11: B, 12: D, 13: B, 14: A, 15: B, 16: C, 17: A}
+Page 4 result: {18: B, 19: A, 20: E, 21: C, 22: E, 23: D, 24: C, 25: C}
+
+Processing 2013 nivel4...
+Page 1 result: None
+Page 2 result: {1: B, 2: C, 3: C, 4: D, 5: B, 6: A, 7: C, 8: C, 9: A, 10: C}
+Page 3 result: {11: A, 12: B, 13: E, 14: D, 15: C, 16: C, 17: C, 18: A, 19: D}
+Page 4 result: {20: B, 21: C, 22: B, 23: C, 24: A, 25: B}
+
+Successfully created respuestas\respuestas_2013.csv
+Total tokens used - Prompt: 19072, Completion: 520
+
+Processing 2014 nivel1...
+Page 1 result: None
+Page 2 result: {1: B, 2: E, 3: A, 4: A, 5: C, 6: C, 7: B, 8: C, 9: D}
+Page 3 result: {10: D, 11: B, 12: C, 13: E, 14: C, 15: B, 16: A, 17: D}
+Page 4 result: {18: B, 19: C, 20: D, 21: B, 22: E, 23: D, 24: A, 25: C}
+
+Processing 2014 nivel2...
+Page 1 result: None
+Page 2 result: {1: D, 2: E, 3: B, 4: D, 5: E, 6: C, 7: B, 8: C}
+Page 3 result: {9: D, 10: B, 11: C, 12: D, 13: C, 14: A, 15: E, 16: C}
+Page 4 result: {17: C, 18: D, 19: C, 20: C, 21: E, 22: D, 23: A, 24: B, 25: C}
+
+Processing 2014 nivel3...
+Page 1 result: None
+Page 2 result: {1: B, 2: D, 3: C, 4: B, 5: C, 6: E, 7: D, 8: C, 9: D}
+Page 3 result: {10: B, 11: D, 12: D, 13: C, 14: D, 15: E, 16: C, 17: D, 18: C, 19: E}
+Page 4 result: {20: B, 21: E, 22: C, 23: C, 24: D, 25: B}
+
+Processing 2014 nivel4...
+Page 1 result: None
+Page 2 result: {1: A, 2: A, 3: A, 4: E, 5: B, 6: A, 7: D, 8: D, 9: B, 10: D, 11: C}
+Page 3 result: {12: B, 13: C, 14: E, 15: C, 16: D, 17: B, 18: C, 19: D}
+Page 4 result: {20: C, 21: E, 22: A, 23: B, 24: D, 25: C}
+
+Successfully created respuestas\respuestas_2014.csv
+Total tokens used - Prompt: 19072, Completion: 520
+
+Processing 2015 nivel1...
+Page 1 result: None
+Page 2 result: {1: C, 2: D, 3: B, 4: A, 5: D, 6: E, 7: D, 8: A}
+Page 3 result: {9: D, 10: A, 11: B, 12: C, 13: B, 14: C, 15: B, 16: D, 17: A}
+Page 4 result: {18: A, 19: E, 20: C, 21: D, 22: D, 23: C, 24: B, 25: C}
+
+Processing 2015 nivel2...
+Page 1 result: None
+Page 2 result: {1: D, 2: A, 3: C, 4: B, 5: D, 6: C, 7: C, 8: A, 9: E}
+Page 3 result: {10: A, 11: C, 12: B, 13: C, 14: D, 15: C, 16: E, 17: B}
+Page 4 result: {18: "C", 20: "C", 21: "D", 22: "E", 23: "C", 25: "A"}
+Error cleaning response: Expecting ',' delimiter: line 1 column 9 (char 8)
+Original response: 18:"C",20:"C",21:"D",22:"E",23:"C",25:"A"
+Failed to parse answers for nivel2 page 3
+
+Processing 2015 nivel3...
+Page 1 result: None
+Page 2 result: {1: C, 2: E, 3: C, 4: D, 5: B, 6: C, 7: E, 8: D, 9: A, 10: D}
+Page 3 result: {11: B, 12: A, 13: C, 14: A, 15: A, 16: D, 17: D, 18: B}
+Page 4 result: {19: A, 20: B, 21: C, 22: A, 23: B, 24: E, 25: A}
+
+Processing 2015 nivel4...
+Page 1 result: None
+Page 2 result: {1: A, 2: B, 3: C, 4: D, 5: E, 6: C, 7: A, 8: E, 9: B}
+Page 3 result: {10: B, 11: C, 12: A, 13: B, 14: C, 15: B, 16: D, 17: C}
+Page 4 result: {18: D, 19: C, 20: B, 21: E, 22: B, 23: A, 24: C, 25: E}
+
+Successfully created respuestas\respuestas_2015.csv
+Total tokens used - Prompt: 19072, Completion: 516
+
+Processing 2016 nivel1...
+Page 1 result: None
+Page 2 result: {1: C, 2: E, 3: D, 4: A, 5: C, 6: B, 7: D, 8: A, 9: D}
+Page 3 result: {10: C, 11: C, 12: D, 13: A, 14: E, 15: C, 16: D, 17: D, 18: E}
+Page 4 result: {19: D, 20: C, 21: E, 22: D, 23: C, 24: A, 25: C}
+
+Processing 2016 nivel2...
+Page 1 result: None
+Page 2 result: {1: D, 2: E, 3: C, 4: B, 5: E, 6: C, 7: D}
+Page 3 result: {8: D, 9: B, 10: D, 11: B, 12: A, 13: D, 14: E, 15: C}
+Page 4 result: {16: A, 17: C, 18: E, 19: B, 20: D, 21: C, 22: B, 24: A, 25: A}
+
+Processing 2016 nivel3...
+Page 1 result: None
+Page 2 result: {1: A, 2: B, 3: C, 4: C, 5: D, 6: B, 7: C, 8: D, 9: A}
+Page 3 result: {10: D, 11: E, 12: C, 13: B, 14: A, 15: B, 16: E, 17: B, 18: C}
+Page 4 result: {19: D, 20: C, 21: E, 22: A, 23: D, 24: B, 25: B}
+
+Processing 2016 nivel4...
+Page 1 result: None
+Page 2 result: {1: D, 2: E, 3: C, 4: B, 5: D, 6: B, 7: D, 8: C, 9: C}
+Page 3 result: {10: C, 11: E, 12: B, 13: A, 14: A, 15: A, 16: A, 17: D, 18: C}
+Page 4 result: {19: A, 20: C, 21: B, 22: E, 23: C, 24: D, 25: C}
+
+Successfully created respuestas\respuestas_2016.csv
+Total tokens used - Prompt: 19072, Completion: 515
+
+Processing 2017 nivel1...
+Page 1 result: None
+Page 2 result: {1: D, 2: C, 3: A, 4: C, 5: B, 6: E, 7: C, 8: D, 9: C}
+Page 3 result: {10: C, 11: B, 12: C, 13: A, 14: D, 15: E, 16: A, 17: B}
+Page 4 result: {18: D, 19: A, 20: D, 21: C, 22: E, 23: C, 24: B, 25: C}
+
+Processing 2017 nivel2...
+Page 1 result: None
+Page 2 result: {1: C, 2: E, 3: A, 4: D, 5: E, 6: C, 7: C, 8: A, 9: D}
+Page 3 result: {10: C, 11: E, 12: D, 13: C, 14: B, 15: E, 16: B, 17: D}
+Page 4 result: {18: C, 19: D, 20: C, 21: D, 23: B, 24: D, 25: A}
+
+Processing 2017 nivel3...
+Page 1 result: None
+Page 2 result: {1: B, 2: D, 3: E, 4: C, 5: B, 6: D, 7: C}
+Page 3 result: {9: A, 10: D, 11: C, 12: D, 13: B, 14: B, 15: D, 16: C}
+Page 4 result: {17: B, 18: E, 19: D, 20: C, 21: A, 22: E, 23: A, 24: C, 25: D}
+
+Processing 2017 nivel4...
+Page 1 result: None
+Page 2 result: {1: B, 2: E, 3: B, 4: D, 5: A, 6: B, 7: C, 8: D, 9: B}
+Page 3 result: {10: B, 11: C, 12: E, 13: A, 14: E, 15: D, 16: A, 17: D, 18: E}
+Page 4 result: {19: C, 20: D, 21: E, 22: C, 23: E, 24: B, 25: C}
+
+Successfully created respuestas\respuestas_2017.csv
+Total tokens used - Prompt: 19072, Completion: 510
+
+Processing 2018 nivel1...
+Page 1 result: {19: E, 20: D, 21: C, 22: D, 23: B, 24: A}
+Page 2 result: {1: B, 2: A, 3: D, 4: E, 5: D, 6: B, 7: E, 8: A, 9: A, 10: A, 11: B, 12: C, 13: 
+B, 14: B, 15: A, 16: C, 17: D, 18: C}
+
+Processing 2018 nivel2...
+Page 1 result: {18: B, 21: D, 24: E, 25: B}
+Page 2 result: {1: A, 2: C, 3: E, 4: D, 5: B, 6: A, 7: D, 8: C, 9: D, 10: D, 11: A, 12: E, 13: 
+C, 14: C, 15: B, 16: E, 17: B}
+
+Processing 2018 nivel3...
+Page 1 result: {
+  21: "B",
+  22: "A",
+  23: "D",
+  24: "C",
+  25: "E"
+}
+Error cleaning response: Expecting ',' delimiter: line 1 column 9 (char 8)
+Original response: 21:"B",22:"A",23:"D",24:"C",25:"E"
+Failed to parse answers for nivel3 page 0
+Page 2 result: {1: B, 2: C, 3: D, 4: C, 5: D, 6: E, 7: A, 8: C, 9: E, 10: D, 11: B, 12: C, 13: 
+B, 14: A, 15: A, 16: C, 17: B, 18: A, 19: E, 20: B}
+
+Processing 2018 nivel4...
+Page 1 result: {20: A, 21: C, 22: D, 23: B, 24: C, 25: A}
+Page 2 result: {1: A, 2: C, 3: B, 4: A, 5: B, 6: C, 7: D, 8: A, 9: A, 10: D, 11: A, 12: C, 13: 
+B, 14: A, 15: C, 16: B, 17: D, 18: C, 19: C}
+
+Successfully created respuestas\respuestas_2018.csv
+Total tokens used - Prompt: 9536, Completion: 495
+
+Processing 2019 nivel1...
+Page 1 result: None
+Page 2 result: {1: B, 2: E, 3: D, 4: A, 5: B, 6: D, 7: B, 8: C, 9: D}
+Page 3 result: {10: D, 11: B, 12: C, 13: E, 14: C, 15: E, 16: D, 17: C}
+Page 4 result: {18: C, 19: D, 20: A, 21: B, 22: D, 23: B, 24: B, 25: C}
+
+Processing 2019 nivel2...
+Page 1 result: None
+Page 2 result: {1: A, 2: C, 3: B, 4: D, 5: E, 6: C, 7: D, 8: C, 9: B}
+Page 3 result: {10: D, 11: B, 12: E, 13: D, 14: C, 15: D, 16: A, 17: C}
+Page 4 result: {18: "C", 19: "B", 20: "D", 21: "E", 22: "C", 23: "A", 24: "C", 25: "D"}
+Error cleaning response: Expecting ',' delimiter: line 1 column 9 (char 8)
+Original response: 18:"C",19:"B",20:"D",21:"E",22:"C",23:"A",24:"C",25:"D"
+Failed to parse answers for nivel2 page 3
+
+Processing 2019 nivel3...
+Page 1 result: None
+Page 2 result: {1: D, 2: A, 3: B, 4: C, 5: B, 6: A, 7: D, 8: C}
+Page 3 result: {9: B, 10: C, 11: B, 12: C, 13: D, 14: A, 15: A, 16: B}
+Page 4 result: {17: A, 18: E, 19: D, 20: D, 21: D, 22: E, 23: C, 24: C, 25: B}
+Page 5 result: None
+
+Processing 2019 nivel4...
+Page 1 result: None
+Page 2 result: {1: B, 2: D, 3: C, 4: B, 5: E, 6: A, 7: C, 8: A, 9: C, 10: C}
+Page 3 result: {11: B, 12: D, 13: C, 14: B, 15: E, 16: B, 17: A, 18: A}
+Page 4 result: {19: C, 20: B, 21: A, 22: C, 23: D, 24: D, 25: A}
+
+Successfully created respuestas\respuestas_2019.csv
+Total tokens used - Prompt: 20264, Completion: 530
+No exam found for 2020 nivel1
+No exam found for 2020 nivel2
+No exam found for 2020 nivel3
+No exam found for 2020 nivel4
+No answers found for year 2020
+No exam found for 2021 nivel1
+No exam found for 2021 nivel2
+No exam found for 2021 nivel3
+No exam found for 2021 nivel4
+No answers found for year 2021
+
+Processing 2022 nivel1...
+Page 1 result: None
+Page 2 result: {1: D, 2: C, 3: D, 4: B, 5: D, 6: C, 7: C, 8: D}
+Page 3 result: {9: B, 10: D, 11: C, 12: D, 13: C, 14: E, 15: D, 16: C}
+Page 4 result: {17: D, 18: B, 19: C, 20: A, 21: D, 22: B, 23: E, 24: C, 25: A}
+
+Processing 2022 nivel2...
+Page 1 result: None
+Page 2 result: {1: C, 2: B, 3: C, 4: D, 5: C, 6: D, 7: B, 8: E, 9: D}
+Page 3 result: {10: D, 11: C, 12: B, 13: A, 14: C, 15: D, 16: E, 17: D}
+Page 4 result: {18: A, 19: D, 20: E, 21: A, 22: E, 23: A, 24: C, 25: C}
+
+Processing 2022 nivel3...
+Page 1 result: None
+Page 2 result: {1: E, 2: A, 3: C, 4: D, 5: B, 6: D, 7: C, 8: A}
+Page 3 result: {9: B, 10: C, 11: A, 12: E, 13: C, 14: C, 15: E, 16: C}
+Page 4 result: {17: B, 18: A, 19: C, 20: D, 21: C, 22: B, 23: A, 24: C, 25: C}
+
+Processing 2022 nivel4...
+Page 1 result: None
+Page 2 result: {1: A, 2: C, 3: A, 4: D, 5: C, 6: B, 7: D, 8: C, 9: D, 10: E}
+Page 3 result: {11: C, 12: E, 13: D, 14: B, 15: A, 16: A, 17: A, 18: E}
+Page 4 result: {19: B, 20: C, 21: C, 22: E, 23: C, 24: D, 25: C}
+
+Successfully created respuestas\respuestas_2022.csv
+Total tokens used - Prompt: 19072, Completion: 520
+
+Processing 2023 nivel1...
+Page 1 result: None
+Page 2 result: {1: C, 2: B, 3: C, 4: D, 5: A, 6: B, 7: A, 8: C, 9: D}
+Page 3 result: {10: A, 11: D, 12: A, 13: D, 14: C, 15: B, 16: C, 17: D, 18: B}
+Page 4 result: {19: C, 20: D, 21: C, 22: B, 23: C, 24: D, 25: C}
+
+Processing 2023 nivel2...
+Page 1 result: None
+Page 2 result: {1: C, 2: E, 3: C, 4: D, 5: B, 6: C, 7: D, 8: C}
+Page 3 result: {9: C, 10: E, 11: D, 12: C, 13: B, 14: E, 16: A}
+Page 4 result: {17: E, 18: A, 19: C, 20: A, 21: B, 22: B, 23: D, 24: A, 25: C}
+
+Processing 2023 nivel3...
+Page 1 result: None
+Page 2 result: {1: B, 2: B, 3: C, 4: D, 5: E, 6: C, 7: B, 8: C, 9: D}
+Page 3 result: {10: C, 11: C, 12: D, 13: A, 14: B, 15: C, 16: E, 17: D, 18: E}
+
+Processing 2023 nivel4...
+Page 1 result: None
+Page 2 result: {1: B, 2: C, 3: A, 4: D, 5: C, 6: B, 7: E, 8: D, 9: C}
+Page 3 result: {10: D, 11: E, 12: A, 13: D, 14: B, 15: C, 16: E, 17: C, 18: D}
+Page 4 result: {19: C, 20: B, 21: E, 22: A, 23: C, 24: D, 25: C}
+
+Successfully created respuestas\respuestas_2023.csv
+Total tokens used - Prompt: 19072, Completion: 515
