@@ -7,6 +7,7 @@ EXAMS_DIR = "examenes"
 SOLUTIONS_DIR = "soluciones"
 STATISTICS_DIR = "estadisticas"
 ANSWERS_DIR = "respuestas"
+MODEL="gpt-4o-2024-08-06"
 PRINT_FLAG = True
 TEST_PATHS = [
     r"examenes\2002\nivel4_fase2.pdf", # Double column page

@@ -7,7 +7,7 @@ import csv
 import os
 import json
 import re
-from src.config import CURR_YEAR, TEST_PATHS, OPENAI_API_KEY, SOLUTIONS_DIR, ANSWERS_DIR, NIVELES, EXAMS_DIR
+from src.config import CURR_YEAR, TEST_PATHS, OPENAI_API_KEY, SOLUTIONS_DIR, ANSWERS_DIR, NIVELES, EXAMS_DIR, MODEL
 from openai import OpenAI
 
 client = OpenAI(api_key=OPENAI_API_KEY)
@@ -16,16 +16,17 @@ def process_pdf_page(pdf_path, page_number):
     try:
         base64_image = get_pdf_page(pdf_path, page_number)
         response = client.chat.completions.create(
-            model="gpt-4o-mini",
+            model=MODEL,
             messages=[
                 {
                     "role": "user",
                     "content": [
-                        {"type": "text", "text": "Return a dictionary question number -> answer (A, B, C, D, E) for each question in the image, nothing else, no formatting, no quotation marks. If there are no questions in the image, return None."},
+                        {"type": "text", "text": "Return a dictionary question number -> answer (A, B, C, D, E) for each question in the image, nothing else, no formatting, no quotation marks. e.g:{1: B, 2: B, 3: C}. If there are no questions in the image, return None."},
                         {
                             "type": "image_url",
                             "image_url": {
-                                "url": f"data:image/png;base64,{base64_image}"
+                                "url": f"data:image/png;base64,{base64_image}",
+                                "detail": "high"
                             },
                         },
                     ],
@@ -60,7 +61,10 @@ def clean_response_to_json(response):
         formatted_pairs = []
         for pair in pairs:
             key, value = pair.split(":")
-            formatted_pairs.append(f'"{key.strip()}":"{value.strip()}"')
+            # Clean up any existing quotes
+            key = key.strip().strip('"\'')
+            value = value.strip().strip('"\'')
+            formatted_pairs.append(f'"{key}":"{value}"')
         
         # Reconstruct the JSON string
         json_str = "{" + ",".join(formatted_pairs) + "}"
