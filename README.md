@@ -6,6 +6,15 @@
 
 An automated solver for Concurso Primavera mathematics exams using GPT models. This project downloads exam papers from concursoprimavera.es, processes them, and solves them using OpenAI's GPT models.
 
+![Topics](https://img.shields.io/badge/Topics-AI%20|%20Education%20|%20Mathematics%20|%20PDF%20Processing%20|%20Automation-blue)
+
+## Demo
+
+<video width="100%" controls>
+  <source src="demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 ## What it does
 
 1. Downloads exam papers from concursoprimavera.es
