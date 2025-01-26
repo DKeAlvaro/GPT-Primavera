@@ -1,19 +1,17 @@
 # GPT-Primavera
 
+![Topics](https://img.shields.io/badge/Topics-AI%20|%20Education%20|%20Mathematics%20|%20PDF%20Processing%20|%20Automation-blue)
+
+
 <p align="center">
-  <img src="logo.png" alt="GPT-Primavera Logo" width="200"/>
+  <img src="logo.png?v=2" alt="GPT-Primavera Logo" width="200"/>
 </p>
 
 An automated solver for Concurso Primavera mathematics exams using GPT models. This project downloads exam papers from concursoprimavera.es, processes them, and solves them using OpenAI's GPT models.
 
-![Topics](https://img.shields.io/badge/Topics-AI%20|%20Education%20|%20Mathematics%20|%20PDF%20Processing%20|%20Automation-blue)
-
 ## Demo
 
-<video width="100%" controls>
-  <source src="demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+https://github.com/user-attachments/assets/29a7f3ca-f3e6-4b95-b0d5-444be4a1904c
 
 ## What it does
 
