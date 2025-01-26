@@ -5,10 +5,10 @@ from src.file_downloader import download_exams, download_solutions, make_directo
 from src.config import PRINT_FLAG
 
 if __name__ == "__main__":
-    # make_directories()
-    # download_exams(print_flag=PRINT_FLAG)
-    # download_solutions(print_flag=PRINT_FLAG)
-    # merge_solutions_csv()
+    make_directories()
+    download_exams(print_flag=PRINT_FLAG)
+    download_solutions(print_flag=PRINT_FLAG)
+    merge_solutions_csv()
     solve_all_exams()
     merge_answers()
     generate_statistics("respuestas/respuestas_all.csv", "soluciones/soluciones_all.csv")
