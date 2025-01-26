@@ -1,7 +1,7 @@
 # GPT-Primavera
 
 <p align="center">
-  <img src="logo.jpg" alt="GPT-Primavera Logo" width="200"/>
+  <img src="logo.png" alt="GPT-Primavera Logo" width="200"/>
 </p>
 
 An automated solver for Concurso Primavera mathematics exams using GPT models. This project downloads exam papers from concursoprimavera.es, processes them, and solves them using OpenAI's GPT models.
