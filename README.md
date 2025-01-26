@@ -11,7 +11,7 @@ An automated solver for Concurso Primavera mathematics exams using GPT models. T
 1. Downloads exam papers from concursoprimavera.es
 2. Processes them
 3. Solves them using OpenAI's GPT models
-4. Generates statistics by comparing the answers with the solutions
+4. Generates accuracy statistics by comparing the answers with the solutions
 
 ## Setup
 
@@ -45,13 +45,4 @@ python main.py
 This will:
 1. Download exam papers and solutions
 2. Process and solve the exams
-3. Generate statistics and comparisons
-
-## Directory Structure
-
-- `examenes/`: Downloaded exam papers
-- `soluciones/`: Exam solutions
-- `respuestas/`: Generated answers
-- `estadisticas/`: Statistical analysis
-- `src/`: Source code
-
+3. Generate statistics
