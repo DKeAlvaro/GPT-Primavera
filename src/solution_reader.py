@@ -1,13 +1,10 @@
 import fitz
-from src.config import CURR_YEAR, FASE, SOLUTIONS_DIR
 import csv
 import os
 import re
+from src.config import CURR_YEAR, FASES, SOLUTIONS_DIR
 
-pdf_path = r"soluciones\2022\soluciones_fase2.pdf"
-
-
-def get_solutions_csv(pdf_path):
+def get_solutions_csv(pdf_path, fase=None):
     try:
         # Extract year from pdf path using regex
         year_match = re.search(r'\\(\d{4})\\', pdf_path)
@@ -16,6 +13,14 @@ def get_solutions_csv(pdf_path):
             return None
         year = year_match.group(1)
         
+        # If fase not provided, try to extract it from filename (e.g., soluciones_fase2.pdf)
+        if fase is None:
+            fase_match = re.search(r'fase(\d)', pdf_path)
+            if fase_match:
+                fase = int(fase_match.group(1))
+            else:
+                fase = "unknown"
+
         doc = fitz.open(pdf_path)
         solutions = []
         
@@ -51,7 +56,7 @@ def get_solutions_csv(pdf_path):
                         'nivel2': row[3],
                         'nivel3': row[5],
                         'nivel4': row[7],
-                        'fase': FASE,
+                        'fase': fase,
                         'anio': year
                     })
         
@@ -59,10 +64,11 @@ def get_solutions_csv(pdf_path):
             print(f"Warning: No valid solutions found in {pdf_path}")
             return None
         
-        print(f"Successfully parsed solutions for {year}")
+        print(f"Successfully parsed solutions for {year} fase {fase}")
             
         # Create CSV in the same directory as PDF
-        csv_path = os.path.join(os.path.dirname(pdf_path), f'soluciones_{year}.csv')
+        csv_name = f'soluciones_{year}_fase{fase}.csv'
+        csv_path = os.path.join(os.path.dirname(pdf_path), csv_name)
         
         with open(csv_path, 'w', newline='', encoding='utf-8') as f:
             writer = csv.DictWriter(f, fieldnames=['question_number', 'nivel1', 'nivel2', 'nivel3', 'nivel4', 'fase', 'anio'])
@@ -78,20 +84,23 @@ def get_solutions_csv(pdf_path):
 def merge_solutions_csv():
     solutions = []
     for year in range(2002, CURR_YEAR):
-        csv_path = os.path.join(SOLUTIONS_DIR, str(year), f"soluciones_{year}.csv")
-        if os.path.exists(csv_path):
-            with open(csv_path, 'r', encoding='utf-8') as f:
-                reader = csv.DictReader(f)
-                for row in reader:
-                    # Fix any potential encoding issues in existing files
-                    if 'año' in row:
-                        row['anio'] = row.pop('año')
-                    elif 'aï¿½o' in row:
-                        row['anio'] = row.pop('aï¿½o')
-                    solutions.append(row)
-            print(f"Added solutions from {year}")
-        else:
-            print(f"No solutions found for {year}")
+        year_dir = os.path.join(SOLUTIONS_DIR, str(year))
+        if not os.path.exists(year_dir):
+            continue
+            
+        for file in os.listdir(year_dir):
+            if file.startswith("soluciones_") and file.endswith(".csv"):
+                csv_path = os.path.join(year_dir, file)
+                with open(csv_path, 'r', encoding='utf-8') as f:
+                    reader = csv.DictReader(f)
+                    for row in reader:
+                        # Fix any potential encoding issues in existing files
+                        if 'año' in row:
+                            row['anio'] = row.pop('año')
+                        elif 'aï¿½o' in row:
+                            row['anio'] = row.pop('aï¿½o')
+                        solutions.append(row)
+                print(f"Added solutions from {csv_path}")
 
     if not solutions:
         print("No solutions found in any year!")
@@ -105,5 +114,6 @@ def merge_solutions_csv():
     print(f"Successfully merged all solutions into {output_path}")
 
 if __name__ == "__main__":
-    get_solutions_csv(pdf_path)
+    pass
+
 

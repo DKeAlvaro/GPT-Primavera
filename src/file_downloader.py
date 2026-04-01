@@ -1,6 +1,6 @@
 import os
 import requests
-from src.config import DOWNLOAD_URL, MAIN_URL, NIVELES, FASE, CURR_YEAR, EXAMS_DIR, SOLUTIONS_DIR
+from src.config import DOWNLOAD_URL, MAIN_URL, NIVELES, FASES, CURR_YEAR, EXAMS_DIR, SOLUTIONS_DIR
 from src.solution_reader import get_solutions_csv
 
 def get_file_url(year, fase, nivel):
@@ -43,23 +43,25 @@ def download_exams(print_flag=False):
     exam_years = sorted([int(f) for f in os.listdir(EXAMS_DIR) if f.isdigit()])
     for year in exam_years:
         custom_print(f"\nYear {year}:", print_flag)
-        for nivel in NIVELES:
-            url = get_file_url(year, FASE, nivel)
-            custom_print(f"  {nivel}: {url}", print_flag)
-            if url:
-                download_file(url, os.path.join(EXAMS_DIR, str(year), f"{nivel}_fase{FASE}.pdf"))
+        for fase in FASES:
+            for nivel in NIVELES:
+                url = get_file_url(year, fase, nivel)
+                custom_print(f"  Fase {fase} {nivel}: {url}", print_flag)
+                if url:
+                    download_file(url, os.path.join(EXAMS_DIR, str(year), f"{nivel}_fase{fase}.pdf"))
 
 def download_solutions(print_flag=False):
     exam_years = sorted([int(f) for f in os.listdir(EXAMS_DIR) if f.isdigit()])
     for year in exam_years:
-        url = get_file_url(year, FASE, "soluciones")
-        if url:
-            pdf_path = os.path.join(SOLUTIONS_DIR, str(year), f"soluciones_fase{FASE}.pdf")
-            download_file(url, pdf_path)
-            get_solutions_csv(pdf_path)
+        for fase in FASES:
+            url = get_file_url(year, fase, "soluciones")
+            if url:
+                pdf_path = os.path.join(SOLUTIONS_DIR, str(year), f"soluciones_fase{fase}.pdf")
+                download_file(url, pdf_path)
+                get_solutions_csv(pdf_path, fase=fase)
 
-        else:
-            custom_print(f"No solutions found for year {year}", print_flag)
+            else:
+                custom_print(f"No solutions found for year {year} fase {fase}", print_flag)
 
 def download_file(url, path):
     with requests.Session() as s:
