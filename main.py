@@ -8,5 +8,4 @@ if __name__ == "__main__":
     # download_exams(print_flag=PRINT_FLAG)
     # download_solutions(print_flag=PRINT_FLAG)
     # merge_solutions_csv()
-    
     convert_all_exams("examenes")

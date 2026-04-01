@@ -2,6 +2,7 @@ import os
 import fitz
 import json
 import io
+import concurrent.futures
 from dotenv import load_dotenv
 from google import genai
 from google.genai import types
@@ -75,12 +76,15 @@ def convert_exam(file_path, output_path=None):
             )
         )
         
-        print("--- DEBUG: Respuesta Cruda ---")
-        print(response.text)
-        print("-------------------------------")
+        # print("--- DEBUG: Respuesta Cruda ---")
+        # print(response.text)
+        # print("-------------------------------")
 
         try:
-            page_json = json.loads(response.text)
+            raw_text = response.text.strip()
+            if raw_text.startswith("```json"):
+                raw_text = raw_text[7:-3].strip()
+            page_json = json.loads(raw_text)
             full_exam_data.extend(page_json.get('preguntas', []))
         except json.JSONDecodeError:
             print(f"Error en formato JSON en página {i+1}. Saltando...")
@@ -95,24 +99,30 @@ def convert_exam(file_path, output_path=None):
 
     return full_exam_data
 
-def convert_all_exams(base_dir="examenes"):
+def convert_all_exams(base_dir="examenes", max_workers=5):
     """
-    Busca recursivamente todos los PDFs en base_dir y los convierte a JSON.
+    Busca recursivamente todos los PDFs en base_dir y los convierte a JSON de forma concurrente.
     """
-    for root, dirs, files in os.walk(base_dir):
-        for file in files:
-            if file.lower().endswith(".pdf"):
-                pdf_path = os.path.join(root, file)
-                json_path = os.path.splitext(pdf_path)[0] + ".json"
-                
-                if not os.path.exists(json_path):
-                    print(f"\nConversión necesaria para: {pdf_path}")
-                    try:
-                        convert_exam(pdf_path, output_path=json_path)
-                    except Exception as e:
-                        print(f"Error procesando {pdf_path}: {e}")
-                else:
-                    print(f"Saltando {pdf_path}, el JSON ya existe.")
+    tasks = []
+    with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
+        for root, dirs, files in os.walk(base_dir):
+            for file in files:
+                if file.lower().endswith(".pdf"):
+                    pdf_path = os.path.join(root, file)
+                    json_path = os.path.splitext(pdf_path)[0] + ".json"
+                    
+                    if not os.path.exists(json_path):
+                        print(f"Programando conversión para: {pdf_path}")
+                        tasks.append(executor.submit(convert_exam, pdf_path, output_path=json_path))
+                    else:
+                        pass # El JSON ya existe
+        
+        # Opcional: Esperar a que terminen y manejar resultados
+        for future in concurrent.futures.as_completed(tasks):
+            try:
+                future.result()
+            except Exception as e:
+                print(f"Error en una de las tareas de conversión: {e}")
 
 if __name__ == "__main__":
     convert_all_exams("examenes")
